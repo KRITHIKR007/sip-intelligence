@@ -1,0 +1,5 @@
+model_name: "BAAI/bge-reranker-v2-m3"
+max_length: 1024
+device: "cpu"
+batch_size: 16
+

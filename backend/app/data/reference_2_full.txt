@@ -1,0 +1,279 @@
+RAILWAY SIGNALLING  |  REFERENCE SYMBOL REGISTER 
+Kavach & Electronic Interlocking (EI) – 
+SIP Symbol Register 
+S.No. | Symbol / notation | Meaning and application 
+Reference register for engineering review and AI drawing classification. The notation column is a searchable 
+shorthand, NOT a replacement for the approved graphical symbol. Original IRISET SIP symbol plates are 
+reproduced in the appendix. Kavach tag letters are from RDSO Annexure H, Amendment 5. Confirm project-
+specific legends and the current approved standards before design use. 
+A. Electronic Interlocking / Signal Interlocking Plan 
+S.No.
+Symbol / notation
+Meaning
+1
+2A CL
+Two-aspect colour-light signal; signal profile and permissible indications depend on 
+approved signalling arrangement. 
+2
+3A CL
+Three-aspect colour-light signal; verify lamp positions and aspects from signal 
+profile. 
+3
+4A CL
+Four-aspect colour-light signal; double yellow is an aspect, not an additional signal 
+type. 
+4
+HOME
+Home signal: controls entry to station limits / reception routes.
+5
+STARTER
+Starter signal: controls departure from a station line.
+6
+ADV STARTER
+Advanced starter: controls departure toward block section.
+7
+DISTANT
+Distant signal: advance warning of next stop signal.
+8
+IBS
+Intermediate block stop signal.
+9
+AUTO / A
+Automatic stop signal with automatic marker plate.
+10
+SEMI-AUTO
+Semi-automatic signal with applicable identification.
+11
+CALL-ON
+Calling-on subsidiary signal for restricted-authority movement.
+12
+SHUNT
+Shunt signal: controls shunting movements.
+13
+PL SHUNT
+Position-light shunt signal.
+14
+REPEATER
+Repeater signal indicating aspect of signal ahead.
+15
+ROUTE IND
+Route indicator; junction / theatre / LED matrix as applicable.
+16
+CO-ACT
+Co-acting signal for sighting where provided.
+17
+GATE SIG
+Gate stop signal associated with level crossing.
+18
+STOP BOARD
+Stop board / stop marker.
+19
+BSLB
+Block section limit board.
+20
+S / SIGNAL ID
+Signal identification / numbering shown next to symbol.
+21
+P-N
+Point / turnout in normal position.
+22
+P-R
+Point / turnout in reverse position.
+23
+X-OVER
+Crossover pair of points.
+24
+TRAP
+Trap point / derailing switch.
+25
+FPL
+Facing point lock where relevant.
+26
+FM
+Fouling mark.
+27
+IRJ
+Insulated rail joint.
+28
+TC
+Track circuit / track detection section.
+29
+AC
+Axle counter section.
+30
+DP
+Axle counter detection point / wheel sensor location.
+31
+OVL
+Overlap / overlap limit.
+32
+CSR
+Clear standing room.
+33
+LC
+Level crossing gate and associated apparatus.
+34
+CH
+Crank handle / point emergency operating handle.
+35
+SPT
+Signal post telephone.
+36
+LOC
+Location box / apparatus case.
+37
+RR / EI
+Relay room / electronic interlocking equipment building.
+38
+GF
+Ground frame.
+39
+BUFFER
+Buffer stop / dead end.
+40
+SAND HUMP
+Sand hump / overrun protection.
+
+RAILWAY SIGNALLING  |  REFERENCE SYMBOL REGISTER 
+41
+GRAD
+Gradient / gradient post.
+42
+KM
+Kilometre post / chainage.
+43
+UP / DN
+Up and Down track direction annotation.
+44
+PLATFORM
+Platform / station infrastructure.
+45
+BRIDGE
+Bridge / tunnel reference where signalling-relevant.
+46
+NEW / RED
+New equipment shown red in scheme plans.
+47
+REMOVE / GREEN
+Equipment to be removed shown green in scheme plans.
+48
+SOURCE / BLUE
+Addition sourced outside base drawing shown blue in scheme plans.
+Basis: IRISET Standardisation of S&T Drawings V2.1, Chapter 6, pages 98–105; signal definitions 
+supplemented by general engineering terminology. 
+B. Kavach – RFID Tag / TIN Layout 
+S.No.
+Symbol / notation
+Meaning
+1
+N
+Inline section RFID tag.
+2
+S
+Signal-foot RFID tag.
+3
+T
+TIN discrimination / turnout RFID tag.
+4
+X
+Kavach territory exit RFID tag.
+5
+D
+Dead-stop RFID tag.
+6
+G
+Level crossing gate RFID tag.
+7
+L
+Adjacent-line information RFID tag.
+8
+A
+Adjustment / junction RFID tag.
+9
+TIN
+Track Identification Number, denoting the track section in Kavach layout.
+10
+TAG ID
+Unique RFID tag number shown on the layout.
+11
+MAIN + DUP
+Main and duplicate RFID tags, subject to prescribed placement.
+12
+NOM / REV
+Nominal and reverse travel directions.
+13
+SK ID
+Stationary Kavach identity shown with station name.
+14
+RFID CHAINAGE
+Absolute location / chainage of a tag.
+15
+TIN COLOUR
+Distinct colour used for adjacent TIN sections; not a fixed aspect colour.
+16
+WHITE
+Non-Kavach territory, shown white in TIN layout.
+17
+RTU
+Remote terminal unit where represented in project layout.
+18
+RADIO
+Radio network / antenna or tower location: project-specific legend required.
+19
+STATION KAVACH
+Stationary Kavach equipment location: project-specific legend required.
+20
+LOCO KAVACH
+Onboard Kavach equipment; normally in architecture, not a standard SIP track 
+symbol. 
+Basis: RDSO Kavach RFID Tag-TIN Layout Guidelines, Annexure H, Amdt-5 (especially tag notation table); 
+supplementary equipment descriptions are project-dependent. 
+Reference notes 
+ 
+The 2/3/4-aspect entries are classifications. Their aspect colours (R/Y/YY/G) must be checked against the 
+approved aspect sequence chart and signal profile. 
+ 
+IRISET page 23 states that the normally displayed aspect is drawn with a double line; graphical shapes in 
+the appendix are the actual source symbols. 
+ 
+Kavach Annexure H specifies letters N, S, T, X, D, G, L, A for tag placements. It does not establish a 
+universal pictorial icon for every Kavach equipment item. 
+ 
+Sources: IRISET https://iriset.indianrailways.gov.in/instt/uploads/files/1581487978275-
+StdOfSnTDrawingsV2.1.pdf ; RDSO https://rdso.indianrailways.gov.in/uploads/files/Annexure-H%20-
+KAVACH%20RFID%20Tag-TIN%20Layout%20guidelines%20Admt-5_0.pdf 
+Appendix – Original IRISET SIP symbol plates (pages 99–105) 
+Original IRISET page 99 
+
+RAILWAY SIGNALLING  |  REFERENCE SYMBOL REGISTER 
+ 
+ 
+
+RAILWAY SIGNALLING  |  REFERENCE SYMBOL REGISTER 
+Original IRISET page 100 
+ 
+ 
+
+RAILWAY SIGNALLING  |  REFERENCE SYMBOL REGISTER 
+Original IRISET page 101 
+ 
+ 
+
+RAILWAY SIGNALLING  |  REFERENCE SYMBOL REGISTER 
+Original IRISET page 102 
+ 
+ 
+
+RAILWAY SIGNALLING  |  REFERENCE SYMBOL REGISTER 
+Original IRISET page 103 
+ 
+ 
+
+RAILWAY SIGNALLING  |  REFERENCE SYMBOL REGISTER 
+Original IRISET page 104 
+ 
+ 
+
+RAILWAY SIGNALLING  |  REFERENCE SYMBOL REGISTER 
+Original IRISET page 105 
+ 

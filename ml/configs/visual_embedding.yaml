@@ -1,0 +1,8 @@
+model_name: "google/siglip2-base-patch16-224"
+image_size: 224
+device: "cpu"
+batch_size: 4
+normalize: true
+similarity: "cosine"
+dynamic_dimension_eval: true
+

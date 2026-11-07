@@ -1,0 +1,7 @@
+model_name: "convnext_tiny"
+num_classes: 56
+input_size: [224, 224]
+pretrained: true
+domain_finetuned: false
+note: "Feature extractor baseline; fine-tuning required for SIP symbol catalogue"
+

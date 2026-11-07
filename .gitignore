@@ -1,0 +1,76 @@
+# =============================================================================
+# SIP Intelligence Platform
+# =============================================================================
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.venv/
+venv/
+ENV/
+
+# Node.js
+node_modules/
+.next/
+out/
+.npm
+*.tsbuildinfo
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Docker
+docker-compose.override.yml
+
+# ML Models (downloaded at runtime)
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.onnx
+!ml/weights/*.pt
+!data/symbols/*.png
+
+# Data (too large for git)
+data/sip_dataset/
+data/raw/
+data/rendered_pages/
+*.zip
+
+# Logs
+*.log
+logs/
+
+# Coverage
+htmlcov/
+.coverage
+coverage.xml
+
+# Test artifacts
+.pytest_cache/
+.mypy_cache/
+
+# Uploads
+uploads/
+

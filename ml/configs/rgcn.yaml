@@ -1,0 +1,12 @@
+weights_path: "d:/newsas/ml/weights/rgcn_sip.pt"
+in_channels: 256
+hidden_channels: 256
+out_channels: 256
+num_relations: 8
+num_bases: 4
+dropout: 0.2
+l2_normalize: true
+status: "trained"
+training_dataset: "290 interlocking topology graphs extracted from SIP layout annotations"
+smoothness_loss: 0.00166
+note: "Trained on real Indian Railway station topological track connectivity graphs"

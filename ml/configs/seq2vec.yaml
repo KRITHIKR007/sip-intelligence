@@ -1,0 +1,16 @@
+weights_path: "d:/newsas/ml/weights/seq2vec_sip.pt"
+entity_type_dim: 128
+position_dim: 32
+attribute_dim: 32
+input_dim: 192
+hidden_dim: 256
+num_layers: 2
+bidirectional: true
+projection_dim: 256
+dropout: 0.2
+l2_normalize: true
+loss_lambda: 0.2
+status: "trained"
+training_dataset: "290 real railway entity sequences extracted from SIP drawings"
+contrastive_loss: 0.00025
+note: "Trained on real Indian Railway station entity sequences along track chainage"

@@ -1,0 +1,32 @@
+model_name: "d:/newsas/ml/weights/yolo_sip_best.pt"
+task: "detect"
+confidence_threshold: 0.25
+iou_threshold: 0.45
+input_size: 800
+pretrained: false
+domain_finetuned: true
+dataset: "D:/sensedge/data/sip_training"
+epochs_trained: 25
+metrics:
+  mAP50_overall: 0.249
+  mAP50_95_overall: 0.159
+  class_mAP50:
+    Platform: 0.622
+    Running_Signal: 0.508
+    Station_Building: 0.386
+    Point_Turnout: 0.227
+  top_confidences:
+    Platform: 0.782
+    Running_Signal: 0.668
+    Point_Turnout: 0.583
+classes:
+  0: "Running_Signal"
+  1: "Shunt_Signal"
+  2: "Point_Turnout"
+  3: "Trap_Point"
+  4: "Track_Circuit"
+  5: "Buffer_Stop"
+  6: "Platform"
+  7: "Station_Building"
+status: "trained"
+note: "Fine-tuned for 25 epochs at 800x800 with cosine LR and cls loss boost on 290 real SIP drawing tiles and 2,986 railway equipment instances"
